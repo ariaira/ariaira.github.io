@@ -101,6 +101,9 @@ p {
 }
 #header a:hover {
   color: #258fb8;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
   text-decoration: none;
 }
 #header h1 {
