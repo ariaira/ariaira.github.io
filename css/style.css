@@ -95,9 +95,6 @@ p {
 #header {
   text-shadow: 0 0 1px #fff;
   margin-top: 0px;
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
 }
 #header a {
   color: #999;
