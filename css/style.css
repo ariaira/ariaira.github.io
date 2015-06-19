@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background: #9f9;
+  background: #fff;
   color: #444;
   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN";
   font-size: 14px;
@@ -178,6 +178,8 @@ article .gallery {
 }
 article .gallery:hover .control {
   opacity: 1;
+  -ms-filter: none;
+  filter: none;
 }
 article .gallery img {
   min-width: 100%;
@@ -187,9 +189,13 @@ article .gallery img {
   top: 0;
   left: 0;
   opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
 }
 article .gallery .control {
   opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
