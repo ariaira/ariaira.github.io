@@ -95,15 +95,15 @@ p {
 #header {
   text-shadow: 0 0 1px #fff;
   margin-top: 0px;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
 }
 #header a {
   color: #999;
 }
 #header a:hover {
   color: #258fb8;
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
   text-decoration: none;
 }
 #header h1 {
@@ -490,7 +490,7 @@ article footer .tags {
 }
 #cover {
   height: 250px;
-  background: #f9f9f9;
+  background: #9f9;
   text-align: center;
   center: fixed;
   -moz-background-size: cover;
